@@ -18,7 +18,7 @@ sub MAIN($count) {
         $n = $count;
         put("Init value: $a $b");
         $i = 2;
-	print('int fib_value[', $n, '] = {');
+	print('int fib_value[] = {');
         while $i < $n {
             $show = $a + $b;
             $a = $b;
