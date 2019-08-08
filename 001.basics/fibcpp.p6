@@ -9,7 +9,7 @@ sub MAIN($count) {
             }
         }
         my $number = +$count;
-        put("Calculate Fibonacci Series for $number elements...");
+        put("Calculate Fibonacci Sequence for $number elements...");
         my $i = 0;
         my $n = 0;
         my $a = 0;
